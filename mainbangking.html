@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bangking part</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-16">
+        Let's get some <span class="font-semibold text-purple-600">Mooooooney</span> !!
+      </h1>
+    </header>
+    <main class="w-3/4 mx-auto">
+      <section class="mt-8">
+        <div class="grid grid-cols-3 gap-8 mt-16">
+          <div class="bg-purple-500 text-white p-10 rounded">
+            <h3 class="text-3xl">Deposit</h3>
+            <h4 class="text-5xl">$00</h4>
+          </div>
+          <div class="bg-purple-600 text-white p-10 rounded">
+            <h3 class="text-3xl">Withdraw</h3>
+            <h4 class="text-5xl">$00</h4>
+          </div>
+          <div class="bg-purple-500 text-white p-10 rounded">
+            <h3 class="text-3xl">Balance</h3>
+            <h4 class="text-5xl">$1240</h4>
+          </div>
+        </div>
+      </section>
+      <!-- deposit withdraw -->
+      <section>
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-red-100 p-8 mt-16">
+            <h3 class="text-3xl mb-5">
+              Please Deposite
+              <div>
+                <input
+                  id="user-deposite"
+                  class="border mt-5 mb-6 px-2 block w-3/4 border-gray-400 rounded"
+                  type="number"
+                  name=""
+                  id=""
+                  placeholder="$ Deposite  Amount"
+                />
+                <button
+                  id="login-submit"
+                  class="bg-purple-500 text-white rounded-lg font-semibold px-10 py-2"
+                >
+                  Deposite
+                </button>
+              </div>
+            </h3>
+          </div>
+          <div class="bg-red-100 p-8 mt-16">
+            <h3 class="text-3xl mb-5">
+              Please Withdraw
+              <div>
+                <input
+                  id="user-withdraw"
+                  class="border mt-5 mb-6 px-2 block w-3/4 border-gray-400 rounded"
+                  type="number"
+                  name=""
+                  id=""
+                  placeholder="$ Withdraw  Amount"
+                />
+                <button
+                  id="login-submit"
+                  class="bg-purple-500 text-white rounded-lg font-semibold px-10 py-2"
+                >
+                  Withdraw
+                </button>
+              </div>
+            </h3>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

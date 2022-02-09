@@ -22,11 +22,11 @@
           </div>
           <div class="bg-purple-600 text-white p-10 rounded">
             <h3 class="text-3xl">Withdraw</h3>
-            <h4 class="text-5xl">$00</h4>
+            <h4 class="text-5xl">$<span id="withdraw-total">00</span></h4>
           </div>
           <div class="bg-purple-500 text-white p-10 rounded">
             <h3 class="text-3xl">Balance</h3>
-            <h4 class="text-5xl">$<span id="balance-total">1240</span> </h4>
+            <h4 class="text-5xl">$<span id="balance-total">1240</span></h4>
           </div>
         </div>
       </section>
@@ -64,7 +64,7 @@
                   placeholder="$ Withdraw  Amount"
                 />
                 <button
-                  id="withdraw-submit"
+                  id="withdraw-button"
                   class="bg-purple-500 text-white rounded-lg font-semibold px-10 py-2"
                 >
                   Withdraw

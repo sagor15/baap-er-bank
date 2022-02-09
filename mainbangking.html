@@ -18,7 +18,7 @@
         <div class="grid grid-cols-3 gap-8 mt-16">
           <div class="bg-purple-500 text-white p-10 rounded">
             <h3 class="text-3xl">Deposit</h3>
-            <h4 class="text-5xl">$00</h4>
+            <h4 class="text-5xl">$<span id="taka-depo">00</span></h4>
           </div>
           <div class="bg-purple-600 text-white p-10 rounded">
             <h3 class="text-3xl">Withdraw</h3>
@@ -26,7 +26,7 @@
           </div>
           <div class="bg-purple-500 text-white p-10 rounded">
             <h3 class="text-3xl">Balance</h3>
-            <h4 class="text-5xl">$1240</h4>
+            <h4 class="text-5xl">$<span id="balance-total">1240</span> </h4>
           </div>
         </div>
       </section>
@@ -45,10 +45,7 @@
                   id=""
                   placeholder="$ Deposite  Amount"
                 />
-                <button
-                  id="login-submit"
-                  class="bg-purple-500 text-white rounded-lg font-semibold px-10 py-2"
-                >
+                <button id="depo-submit" class="bg-purple-500 text-white rounded-lg font-semibold px-10 py-2">
                   Deposite
                 </button>
               </div>
@@ -67,7 +64,7 @@
                   placeholder="$ Withdraw  Amount"
                 />
                 <button
-                  id="login-submit"
+                  id="withdraw-submit"
                   class="bg-purple-500 text-white rounded-lg font-semibold px-10 py-2"
                 >
                   Withdraw
@@ -78,5 +75,6 @@
         </div>
       </section>
     </main>
+    <script src="js/bangking.js"></script>
   </body>
 </html>
